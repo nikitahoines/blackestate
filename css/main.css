@@ -1,0 +1,624 @@
+body{
+	font-family: 'Molengo', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+/* --------- HACKS / FIXES ------- */
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --------- HEADER ------- */
+header {
+	padding: 10px;
+}
+.logo {
+	width: 40%;
+	margin-left: 5%;
+	padding: 10px 0px 10px 0px;
+}
+.menu {
+	width: 40px;
+	padding-top: 10px;
+	margin: 5%;
+	float: right;
+}
+.cart {
+	float: right;
+	width: 32px;
+	margin: 5%;
+	padding-top: 13px;
+}
+.show-desktop {
+	display: none;
+}
+.desktop-nav {
+	display: none;
+}
+
+/* ------- FIRST BANNER ------- */
+.first-banner{
+	background-image: url("../images/blackestate-vineyard.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+
+}
+.overlay{
+	width: 100%;
+	background: rgba(0, 0, 0, .4);
+	margin: 0 auto;
+}
+
+.herocontent {
+
+	width: 100%;
+	color: white;
+	padding: 30px;
+	line-height: 22px;
+}
+.herocontent p {
+	padding-bottom: 30px;
+}
+.button-primary {
+	background: #fff;
+	color: #565a60;
+	padding: 7px;
+	margin: 0 auto;
+	display: block;
+	width: 115px;
+	text-align: center;
+}
+
+/* ------- INFORMATION ------- */
+.content {
+	padding: 45px;
+}
+.info-icon {
+	display: block;
+	margin: 10px auto;
+}
+.content p {
+	padding: 15px 30px;
+	line-height: 23px;
+	text-align: left;
+	line-height: 1.4;
+}
+
+/* ------- SECOND BANNER ------- */
+.second-banner{
+	background-image: url("../images/wine.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.hidden-mobile {
+	display: none;
+}
+.show-desktop {
+	display: none;
+}
+
+
+/* ------- FOOTER ------- */
+footer {
+		padding: 15px 10px 10px 10px;
+ 		background-color: #4c4c4c;
+ 		color: white;
+ 		display: block;
+ 	}
+ 	.form {
+ 		max-width: 200px;
+ 		margin-right: 20px;
+		padding-bottom: 20px;
+		border-bottom: 0.25px solid #ffffff;
+	}
+ 	.fa-facebook, .fa-twitter, .fa-instagram {
+		color: #ffffff;
+ 	}
+ 	.footer-float {
+ 		clear: both;
+ 		line-height: 24px;
+ 	}
+ 	.show-desktop-footer {
+ 		display: none;
+ 	}
+ 	.footer-icons {
+ 		padding-bottom: 20px;
+ 	}
+ 	.clear ul li:hover{
+		color: #d10808;
+	}
+ 	label {
+	display: inline;
+	width: 100%;
+	padding:0px 10px 10px 0px;
+	}
+	input {
+		display: inline;
+		border: 0.25px solid #BABABA;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
+ 	label,input {
+ 		display: inline-block;
+ 	}
+ 	input:last-child {
+ 		margin-top: 5px;
+ 		background-color: white;
+		border: 0.25px solid #BABABA;
+ 	}
+ 	h4 {
+ 		color: white;
+ 		font-size: 20px;
+ 	}
+ 	
+/**/
+
+
+.footer-float {
+	padding-top: 30px;
+	margin-right:3%;
+}
+.footer-icons {
+	line-height: 20px;
+}
+.icon {
+	float: left;
+	padding-right: 10px;
+	font-size: 28px;
+}
+.fa-facebook, .fa-twitter, .fa-instagram {
+	color: #ffffff;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+	color: #d10808;
+}
+.copyright {
+	padding-top: 30px;
+	clear: both;
+	font-size: 12px;
+	padding-bottom: 15px;
+	color: #ffffff;
+}
+
+/* ------- TYPOGRAPHY ------- */
+h1 {
+	margin: 10px 0px 10px 0px; 
+}
+p {
+	padding: 0px 10px 10px 10px;
+}
+h1, p {
+	text-align: center;
+}
+h3{
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	width: 70px;
+}
+h4 {
+	padding: 20px 0px 10px 0px;
+}
+a {
+	text-decoration: none;
+}
+ /*------ SMALLEST PHONE ------*/
+ @media only screen and (min-width: 320px){
+ 	footer {
+ 		background-color: #4c4c4c;
+ 		color: white;
+ 	}
+ 	.fa-facebook, .fa-twitter, .fa-instagram {
+		color: white;
+ 	}
+ 	.footer-float {
+ 		clear: both;
+ 	}
+ 	.show-desktop-footer {
+ 		display: none;
+ 	}
+ 	.footer-icons {
+ 		padding-bottom: 20px;
+ 	}
+ 	label,input {
+ 		display: inline-block;
+ 	}
+ 	input:last-child {
+ 		margin-top: 10px;
+ 	}
+ 	h4 {
+ 		color: white;
+ 		font-size: 20px;
+ 	}
+ }
+
+/*------- TABLET -------*/
+@media only screen and (min-width : 711px) {
+	header{
+		padding-bottom: 20px;
+	}
+	.logo {
+		width: 30%;
+	}
+	.menu {
+		width: 5%;
+	}
+	.cart {
+		float: right;
+		width: 4%;
+		margin: 5%;
+		padding-top: 11px;
+}	
+	.hidden-mobile {
+		display: block;
+	}
+	.only-mobile {
+		display: none;
+	}
+	.content {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.overlay {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.show-desktop-footer {
+		display: inline;
+	}
+	footer{
+		font-size: 16px;
+	}
+	h4 {
+		padding-top: 30px;
+	}
+	.form {
+		border-bottom: 0px;
+	}
+	.container {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+}
+/*------- END OF TABLET -------*/
+
+/*------- SMALL DESKTOP -------*/
+@media only screen and (min-width : 1024px) {
+	header {
+		display: block;
+	}
+	.logo {
+		width: 20%;
+		display: block;
+		margin: 0 auto;
+	}
+	.menu {
+		display: none;
+	}
+	.cart {
+		float: right;
+		width: 50px;
+		margin: 0;
+		padding: 0px 10px 0px 0px;
+	}	
+	.desktop-nav {
+		display: block;
+		max-width: 600px;
+		margin: 0 auto;
+		font-size: 20px;
+	}
+	.navbar ul {
+		width: 700px;
+	}
+	.navbar ul li {
+		display: inline;
+		padding-right: 20px;
+		text-align: center;
+		letter-spacing: 1px;
+		margin-right: 25px;
+		font-variant: small-caps;
+	}
+	.navbar li a {
+		color: black;
+	}
+	.navbar li a:hover {
+		border-bottom: 0.25px solid black;
+	}
+	.navbar li:nth-child(6) {
+		margin: 0px;
+		padding: 0px;
+	}
+	.first-banner {
+		clear: both;
+		background-position: center;
+	}
+	.content {
+		padding: 5% 5% 5% 5%;
+	}
+	.content-tile {
+		width: 33%;
+		float: left;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 45px;
+
+	}
+	.second-banner {
+		clear: both;
+	}
+	.form{
+		border: none;
+	}
+	.show-desktop-footer {
+		display:inline;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+/*------- END OF SMALL DESKTOP -------*/
+
+/*------- LARGE DESKTOP -------*/
+
+@media only screen and (min-width : 1200px) {
+	body {
+		position: relative;
+	}
+	.logo {
+		width: 219px;
+	}
+	.desktop-nav {
+		margin: 20px auto;
+		max-width: 600px;	
+	}
+	.navbar li {
+		margin-right: 25px;
+		font-variant: small-caps;
+	}
+	.navbar li:nth-child(6) {
+		margin: 0px;
+	}
+	.first-banner {
+		padding-left: 10%;
+	}
+	.first-banner, .second-banner {
+		background-size: 100vw;
+		background-repeat: no-repeat;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		padding-right: 10%;
+	}
+	.overlay{
+		width:25%;
+		background: rgba(0, 0, 0, .6);
+		margin: 0px;
+		border: 3px solid white;
+		padding: 10px;
+		box-shadow: 6px -5px 141px #000000;
+	}
+
+	.content {
+		padding-left: 9%;
+		padding-right: 9%;
+	}
+	.content p {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.hidden-mobile {
+		display: none;
+	}
+	.show-desktop {
+		display: block;
+	}
+
+	footer {
+		/*display: block;*/
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.align-right {
+		float: right;
+	}
+	
+
+}
+
+
+/*----- ABOUT PAGE -----*/
+
+/*----- MOBILE -----*/
+
+	.about-heading {
+		font-family: 'Bell MT', serif;
+		font-size: 22px;
+		text-align: center;
+		border-bottom: 0.25px solid #4c4c4c;
+		width: 100px;
+		margin: 10px auto;
+	}
+	.about-image-tile {
+		width: 100%;
+	}
+	.show-tablet {
+		display: none;
+	}
+	.about-container {
+		padding: 15px 10%;
+		font-size: 16px;
+		text-align: left;
+		line-height: 1.5;
+	}
+	.images-desc p {
+		padding: 15px 5%;
+		margin-bottom: 5%;
+		font-size: 16px;
+	}
+	.our-vineyards:last-child {
+		padding-bottom: 20px;
+	}
+	.vineyards-heading {
+		font-family: 'Bell MT', serif;
+		font-size: 24px;
+		border-bottom: 0.25px solid #4c4c4c;
+		width: 151px;
+		padding-bottom: 10px;
+		margin: 10px auto;
+		margin-bottom: 25px;
+	}
+	.sub-heading {
+		font-family: 'Bell MT', serif;
+		text-align: center;
+		font-size: 19px;
+		width: 150px;
+		margin: 0px auto;
+		font-weight: 600;
+		letter-spacing: 1.4px;	}
+	footer {
+		clear: both;
+	}
+
+
+/*----- TABLET -----*/
+
+@media only screen and (min-width : 711px) {
+	.about-images {
+		display: block;
+		max-width: 1024px;
+		width: 87%;
+		margin: 0 auto;
+	}
+	.about-image-tile {	
+		/*display: inline-block;*/
+		max-width: 49%;
+	}
+	.show-tablet {
+		display: inline;
+	}
+	.show-desktop {
+		display: none;
+	}
+	.about-container {
+		padding: 15px 15%;
+	}
+
+}
+/*----- SMALL DESKTOP -----*/
+@media only screen and (min-width : 1024px) {
+	.about-images {
+		display: block;
+		max-width: 1200px;
+		margin: 0 auto ;
+
+	}
+	.about-image-tile {	
+		display: inline-block;
+			max-width: 32%;
+	}
+	.show-desktop {
+		display: inline-block;
+	}
+	.our-vineyards {
+		padding: 0px 3%;
+	}
+	.about-container {
+		padding: 15px 7%;
+	}
+	
+}
+/*----- LARGE DESKTOP -----*/
+
+@media only screen and (min-width : 1200px) {
+
+	.images-desc {
+		padding: 0px 10%;
+	}
+	.content-tile { /* dont change - linked to homepage */
+		width: 33%;
+		float: left;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 45px;
+
+	}
+
+}
+
+/*----- PURCHASE PAGE -----*/
+
+
+/*----- MOBILE -----*/
+.products {
+	/*display: inline-block;*/
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+
+	width: 100%;
+	padding: 0px 10%;
+	margin: 0 auto;
+}
+
+.wine-tile {
+	width: 200px;
+	padding: 3% 0px;
+	margin: 3% auto;
+	border: 4px double #BABABA;
+	
+}
+.bottle {
+	height: 130px;
+	display: block;
+	margin: 0 auto;
+}
+.wine-name {
+	font-family: 'Bell MT', serif;
+	display: block;
+	padding-top: 10px;
+}
+.quantity-form {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+.quantity-form:last-child {
+	padding-bottom: 0px;
+}
+.quantity {
+	display: inline;
+	width: 50px;
+	text-align: center;	
+}
+button {
+	border: 1px solid #BABABA;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+
+/* ----- TABLET ----- */
+
+@media only screen and (min-width : 711px) {
+	.products {
+		margin: 0 auto;
+		max-width: 1666px;
+	}
+	.wine-tile {
+		margin: 3% 5%;
+		display: inline-block;
+	}
+}
+
+
